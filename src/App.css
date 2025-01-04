@@ -1,0 +1,99 @@
+.app-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.legend {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.legend h4 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.legend-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.legend div {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.tooltip {
+  z-index: 1000;
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.map-toggle {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  z-index: 100;
+}
+
+.map-toggle button {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointe
+  
+}
+
+.watershed-toggle {
+  position: absolute;
+  top: 130px;
+  right: 20px;
+  z-index: 100;
+}
+
+.watershed-toggle button {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointe
+  
+}
+
+.map-controls {
+  position: absolute;
+  top: 170px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buildings-toggle button,
+.map-toggle button {
+  padding: 8px 16px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buildings-toggle button:hover,
+.map-toggle button:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,1 @@
+public/buildings.geojson filter=lfs diff=lfs merge=lfs -text

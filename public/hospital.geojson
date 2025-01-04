@@ -1,0 +1,974 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-12-28T18:24:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6433556155",
+        "addr:district": "Champhai",
+        "addr:full": "Ngopa",
+        "addr:postcode": "796290",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "CHC Ngopa",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.2118337,
+          23.881729
+        ]
+      },
+      "id": "node/6433556155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859202",
+        "addr:district": "Kolasib",
+        "addr:full": "Diakkawn",
+        "addr:postcode": "796081",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Nazareth Hospital, Kolasib",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.6740779,
+          24.2334996
+        ]
+      },
+      "id": "node/6909859202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859216",
+        "addr:district": "Kolasib",
+        "addr:full": "Vairengte Road,Near Police Station,Vairengte",
+        "addr:postcode": "788114",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Bilkhawthlir (New Rd)",
+        "amenity": "hospital",
+        "healthcare": "centre",
+        "name": "CHC, Vairengte",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7664854,
+          24.5079987
+        ]
+      },
+      "id": "node/6909859216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859217",
+        "addr:district": "Kolasib",
+        "addr:full": "Venglai Main Road,Opp. State Bank Of India,Kolasib",
+        "addr:postcode": "796081",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Bilkhawthlir (New Rd)",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "District Hospital,Kolasib",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.6766193,
+          24.2314023
+        ]
+      },
+      "id": "node/6909859217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859223",
+        "addr:district": "Mamit",
+        "addr:full": "Aizawl-Kumarghat Road,Near Mizoram Rural Bank,Rawpuichhip",
+        "addr:postcode": "796410",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Reiek",
+        "amenity": "hospital",
+        "name": "PHC, Rawpuichhip",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.5601256,
+          23.7841698
+        ]
+      },
+      "id": "node/6909859223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859294",
+        "addr:district": "Aizawl",
+        "addr:full": "Durtlang-Leitan Road,Beside Shiv Mandir,Bawngkawn",
+        "addr:postcode": "796014",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Greenwood Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7310816,
+          23.7555439
+        ]
+      },
+      "id": "node/6909859294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859305",
+        "addr:district": "Aizawl",
+        "addr:full": "Saitual Road,Bethel Presbyterian Church,Saitual",
+        "addr:postcode": "796261",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Thingsulthliah (Part)",
+        "amenity": "hospital",
+        "name": "Sub-District Hospital,Saitual",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9630148,
+          23.6821385
+        ]
+      },
+      "id": "node/6909859305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859395",
+        "addr:district": "Serchhip",
+        "addr:full": "Silchar Road,Near Serchhip Bazar,Serchhip",
+        "addr:postcode": "796181",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Serchhip",
+        "amenity": "hospital",
+        "name": "District Hospital, Serchhip",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.8556728,
+          23.3078982
+        ]
+      },
+      "id": "node/6909859395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859417",
+        "addr:district": "Lawngtlai",
+        "addr:full": "Vengpui, L-I",
+        "addr:postcode": "796891",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Christian Hospital, Lawngtlai",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.8981758,
+          22.5356749
+        ]
+      },
+      "id": "node/6909859417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859429",
+        "addr:city": "Siaha",
+        "addr:district": "Siaha",
+        "addr:full": "Traffic Point-Circuit House Road,Near Police Station,Siaha",
+        "addr:postcode": "796901",
+        "addr:state": "Mizoram",
+        "addr:street": "New Siaha West",
+        "addr:subdistrict": "Siaha (New Rd)",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "District Hospital, Siaha",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9828605,
+          22.4883875
+        ]
+      },
+      "id": "node/6909859429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859499",
+        "addr:district": "Mamit",
+        "addr:full": "Aizwal-Kumarghat Road,Near CMO Office,Mamit",
+        "addr:postcode": "796441",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Zawlnuam",
+        "amenity": "hospital",
+        "name": "District Hospital, Mamit",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.4947387,
+          23.909285
+        ]
+      },
+      "id": "node/6909859499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859505",
+        "addr:district": "Aizawl",
+        "addr:full": "NH306A,Near ICI Church,Sakawrdai",
+        "addr:postcode": "796111",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Darlawn",
+        "amenity": "hospital",
+        "description": "Community Health Center",
+        "healthcare": "centre",
+        "name": "CHC, Sakawrdai",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9522659,
+          24.2261924
+        ]
+      },
+      "id": "node/6909859505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859524",
+        "addr:district": "Aizawl",
+        "addr:full": "Kulikawn",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Alpha Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7195313,
+          23.7093053
+        ]
+      },
+      "id": "node/6909859524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859549",
+        "addr:district": "Aizawl",
+        "addr:full": "Chaltlang Road,Opp. Union Bank Of India,Chaltlang",
+        "addr:postcode": "796012",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Nazareth Hospitals",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7224247,
+          23.7489767
+        ]
+      },
+      "id": "node/6909859549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909859597",
+        "addr:district": "Aizawl",
+        "addr:full": "Near Falkawn Chawhmeh Bazar,Falkawn",
+        "addr:postcode": "796005",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "State Referral Hospital,Falkawn",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7281633,
+          23.6242176
+        ]
+      },
+      "id": "node/6909859597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6911254756",
+        "addr:district": "Saiha",
+        "addr:full": "Saiha",
+        "addr:postcode": "796901",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Maraland Gospel Centenary Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9796365,
+          22.4890083
+        ]
+      },
+      "id": "node/6911254756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6911271597",
+        "addr:district": "Lawngtlai",
+        "addr:full": "Bazar Veng",
+        "addr:postcode": "796891",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Lcmc Hospital, Lawngtlai",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.8858672,
+          22.5394646
+        ]
+      },
+      "id": "node/6911271597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6911271631",
+        "addr:district": "Aizawl",
+        "addr:full": "Hill Street,Near Post Office,Vaivakawn",
+        "addr:postcode": "796009",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Adventist Hospital,Vaivakawn",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7101871,
+          23.7368296
+        ]
+      },
+      "id": "node/6911271631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6911271636",
+        "addr:district": "Aizawl",
+        "addr:full": "Bawngkawn-Chhimneng Road,Near Transport Office,Aizawl",
+        "addr:postcode": "796012",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Bethesda Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.726619,
+          23.7504614
+        ]
+      },
+      "id": "node/6911271636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6911271641",
+        "addr:district": "Aizawl",
+        "addr:full": "Durtlang",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Presbyterian Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.8594648,
+          23.687823
+        ]
+      },
+      "id": "node/6911271641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7127376529",
+        "addr:district": "Lawngtlai",
+        "addr:full": "Vathuampui Road,Near Presbyterian Church,M Kawnpui",
+        "addr:postcode": "796891",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Lawngtlai",
+        "amenity": "hospital",
+        "name": "Christian Hospital,M Kawnpui",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.71235,
+          22.332288
+        ]
+      },
+      "id": "node/7127376529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7127376531",
+        "addr:district": "Lawngtlai",
+        "addr:full": "Electric Veng,Near Circuit House,Lawngtai",
+        "addr:postcode": "796891",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Lawngtlai",
+        "amenity": "hospital",
+        "name": "District Hospital,Lawngtai",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.8886349,
+          22.536451
+        ]
+      },
+      "id": "node/7127376531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7127376539",
+        "addr:district": "Aizawl",
+        "addr:full": "Jail Veng,Opp.Aizawl Police Station,Dawrpui",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Vaivenga Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7159388,
+          23.7334106
+        ]
+      },
+      "id": "node/7127376539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7127376542",
+        "addr:district": "Aizawl",
+        "addr:full": "Peter Street,Beside Axis Bank,Aizawl",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Aizawl Hospital & Research Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7175467,
+          23.7189081
+        ]
+      },
+      "id": "node/7127376542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7127376544",
+        "addr:district": "Aizawl",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "description": "Government Hospital",
+        "name": "Kulikawn Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7154669,
+          23.7085438
+        ]
+      },
+      "id": "node/7127376544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7127376546",
+        "addr:district": "Lunglei",
+        "addr:full": "TH Lewin Road,Near Post Office,Tlabung",
+        "addr:postcode": "796751",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Lungsen",
+        "amenity": "hospital",
+        "name": "Civil Hospital,Tlabung",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.469788,
+          22.906431
+        ]
+      },
+      "id": "node/7127376546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7127376547",
+        "addr:district": "Lawngtlai",
+        "addr:full": "Near Police Station,Borapansury II",
+        "addr:postcode": "796770",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Chawngte",
+        "amenity": "hospital",
+        "name": "Borapansury Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.5292909,
+          22.7066754
+        ]
+      },
+      "id": "node/7127376547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7127376550",
+        "addr:district": "Lunglei",
+        "addr:full": "Lunglei-Thenzawl Road,Near HPC Office,Lunglei",
+        "addr:postcode": "796701",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Lunglei",
+        "amenity": "hospital",
+        "name": "Civil Hospital,Lunglei",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.744237,
+          22.8863179
+        ]
+      },
+      "id": "node/7127376550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7127376552",
+        "addr:district": "Aizawl",
+        "addr:full": "Kulikawn Road,Near Police Station,Kulikawn",
+        "addr:postcode": "796005",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "B.N. Hospital,Kulikawn",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7193766,
+          23.7110935
+        ]
+      },
+      "id": "node/7127376552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7127376559",
+        "addr:district": "Lawngtlai",
+        "addr:full": "NH 2,Opp. Likbk Christian Millansangati,Lawngtlai",
+        "addr:postcode": "796891",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Lawngtlai",
+        "amenity": "hospital",
+        "name": "Lairam Christian Medical Centre & Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.889175,
+          22.511206
+        ]
+      },
+      "id": "node/7127376559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7127376561",
+        "addr:district": "Champhai",
+        "addr:full": "Hospital Road,Near BSNL Office,Vengsang,Champhai",
+        "addr:postcode": "796321",
+        "addr:state": "Mizoram",
+        "addr:subdistrict": "Champhai ( New Rd)",
+        "amenity": "hospital",
+        "description": "District Hospital",
+        "name": "District Hospital,Champhai",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.309599,
+          23.481
+        ]
+      },
+      "id": "node/7127376561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7621733287",
+        "addr:district": "Serchhip",
+        "addr:full": "College Peng, New Serchhip",
+        "addr:postcode": "796181",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Mercy Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.85481,
+          23.335851
+        ]
+      },
+      "id": "node/7621733287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7621733288",
+        "addr:district": "Aizawl",
+        "addr:full": "Chanmari - Ramhlun Rd, Ramhlun Venglai, Chaltlang",
+        "addr:postcode": "796012",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "LRM Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.723445,
+          23.744316
+        ]
+      },
+      "id": "node/7621733288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7621733290",
+        "addr:district": "Champhai",
+        "addr:full": "Vengthlang",
+        "addr:postcode": "796321",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "DM Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.3256866,
+          23.4775412
+        ]
+      },
+      "id": "node/7621733290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7621733291",
+        "addr:district": "Lunglei",
+        "addr:full": "Chanmari, Lunglei",
+        "addr:postcode": "796701",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "John Williams Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.748073,
+          22.882938
+        ]
+      },
+      "id": "node/7621733291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7621733292",
+        "addr:district": "Champhai",
+        "addr:full": "Khawhai",
+        "addr:postcode": "796310",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Khawhai Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.1267303,
+          23.3868791
+        ]
+      },
+      "id": "node/7621733292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7621733294",
+        "addr:district": "Champhai",
+        "addr:full": "East Zotlang",
+        "addr:postcode": "796321",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Med Aim Adventist Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.3343849,
+          23.4726288
+        ]
+      },
+      "id": "node/7621733294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7621733296",
+        "addr:district": "Lunglei",
+        "addr:full": "Chanmari, Lunglei",
+        "addr:postcode": "796701",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Hope Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.744105,
+          22.8869856
+        ]
+      },
+      "id": "node/7621733296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7621733298",
+        "addr:district": "Aizawl",
+        "addr:full": "Saron Veng - Bungkawn Road",
+        "addr:postcode": "796001",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Rosewood Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.717955,
+          23.7311693
+        ]
+      },
+      "id": "node/7621733298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7621733299",
+        "addr:district": "Aizawl",
+        "addr:full": "Silaimual, Melthum Kawn",
+        "addr:postcode": "796005",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Zotres Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7249518,
+          23.68029
+        ]
+      },
+      "id": "node/7621733299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7621733300",
+        "addr:district": "Saiha",
+        "addr:full": "Siaha",
+        "addr:postcode": "796901",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "District Hospital , Siaha",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9791567,
+          22.4895876
+        ]
+      },
+      "id": "node/7621733300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7621733301",
+        "addr:district": "Aizawl",
+        "addr:full": "Rev Chhuahkhama Road",
+        "addr:postcode": "796005",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "City Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7164176,
+          23.716618
+        ]
+      },
+      "id": "node/7621733301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7638517587",
+        "addr:postcode": "796471",
+        "addr:street": "Vengpui",
+        "amenity": "hospital",
+        "name": "Zawlnuam Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.331995,
+          24.1331197
+        ]
+      },
+      "id": "node/7638517587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8195862931",
+        "addr:district": "Aizawl",
+        "addr:full": "Durtlang North",
+        "addr:postcode": "796025",
+        "addr:state": "Mizoram",
+        "amenity": "hospital",
+        "name": "Government Hospital, Durtlang North",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7295691,
+          23.7923544
+        ]
+      },
+      "id": "node/8195862931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11378893230",
+        "addr:city": "Aizawl",
+        "addr:district": "Aizawl",
+        "addr:postcode": "796009",
+        "addr:street": "Tuikual Bridge",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ebenezar Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7078441,
+          23.7311933
+        ]
+      },
+      "id": "node/11378893230"
+    }
+  ]
+}

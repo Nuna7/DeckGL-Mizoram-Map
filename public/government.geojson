@@ -1,0 +1,1025 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-12-30T18:05:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4367480939",
+        "addr:city": "Lawngtlai",
+        "addr:housenumber": "DC Compound",
+        "addr:postcode": "796891",
+        "addr:street": "Electric Veng",
+        "name": "Office of the Deputy Commissioner (DC), Lawngtlai",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.8939581,
+          22.5316618
+        ]
+      },
+      "id": "node/4367480939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5936560185",
+        "name": "CID Complex (Foreigner Registration)",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7074247,
+          23.7214411
+        ]
+      },
+      "id": "node/5936560185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6433556156",
+        "amenity": "police",
+        "name": "Ngopa Police Station",
+        "phone": "8974488992"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.212806,
+          23.8817744
+        ]
+      },
+      "id": "node/6433556156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6795399890",
+        "addr:postcode": "796001",
+        "addr:street": "Tuikhuahtlang",
+        "name": "PHE Office",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7192345,
+          23.7187131
+        ]
+      },
+      "id": "node/6795399890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6817893786",
+        "addr:postcode": "796008",
+        "addr:street": "Bethlehem Vengthlang",
+        "name": "Forest Training School",
+        "office": "government",
+        "opening_hours": "Mo-Fr 09:00-16:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7325225,
+          23.727682
+        ]
+      },
+      "id": "node/6817893786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6926325085",
+        "addr:postcode": "796001",
+        "addr:street": "Tuikhuahtlang",
+        "name": "PHE Office",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7191977,
+          23.7187208
+        ]
+      },
+      "id": "node/6926325085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807335377",
+        "amenity": "police",
+        "name": "Vaivakawn Police Station",
+        "phone": "0389-2342303"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7110831,
+          23.7381258
+        ]
+      },
+      "id": "node/10807335377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807355550",
+        "addr:alternatenumber": "0389-2322375",
+        "amenity": "police",
+        "name": "Aizwal Police Station",
+        "phone": "0389-2322319"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7165369,
+          23.7332329
+        ]
+      },
+      "id": "node/10807355550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807355551",
+        "addr:alternatenumber": "0389-2347570",
+        "amenity": "police",
+        "name": "Bawngkawn Police Station",
+        "phone": "0389-2340758"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7281,
+          23.7534536
+        ]
+      },
+      "id": "node/10807355551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807361351",
+        "amenity": "police",
+        "name": "Sakawrdai Police  Station",
+        "phone": "9366289055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9532294,
+          24.2219719
+        ]
+      },
+      "id": "node/10807361351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807376498",
+        "amenity": "police",
+        "name": "Kulikawn Police Station",
+        "phone": "0389-2322379"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7195803,
+          23.7115624
+        ]
+      },
+      "id": "node/10807376498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807386888",
+        "amenity": "police",
+        "name": "Sialsuk Police Station",
+        "phone": "0389-2571343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7471033,
+          23.4032151
+        ]
+      },
+      "id": "node/10807386888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807391978",
+        "amenity": "police",
+        "name": "Zonuam Police Out Post",
+        "phone": "0389-2341463"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.6976527,
+          23.7359677
+        ]
+      },
+      "id": "node/10807391978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807396684",
+        "amenity": "police",
+        "name": "Darlawn Police Station",
+        "phone": "0389-2569342"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9247603,
+          24.0059771
+        ]
+      },
+      "id": "node/10807396684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807403757",
+        "amenity": "police",
+        "name": "Sairang Police Station",
+        "phone": "0389-2568209"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.6539597,
+          23.8123048
+        ]
+      },
+      "id": "node/10807403757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807411102",
+        "amenity": "police",
+        "name": "Kawnpui Police Station",
+        "phone": "03837- 266459"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.6733569,
+          24.0385085
+        ]
+      },
+      "id": "node/10807411102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807411702",
+        "addr:alternatenumber": "8794723770",
+        "amenity": "police",
+        "name": "Bairabi Police Station",
+        "phone": "8974687205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.5388363,
+          24.1929086
+        ]
+      },
+      "id": "node/10807411702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807414430",
+        "amenity": "police",
+        "name": "New Vervek Police Out Post",
+        "phone": "8787486771"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.944674,
+          24.1753261
+        ]
+      },
+      "id": "node/10807414430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807417226",
+        "amenity": "police",
+        "name": "Kolasib Police Station",
+        "phone": "03837-222281"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.6749651,
+          24.2339647
+        ]
+      },
+      "id": "node/10807417226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807425688",
+        "amenity": "police",
+        "name": "Bilkhawthlir Police Outpost",
+        "phone": "03837-265387"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7168013,
+          24.3349237
+        ]
+      },
+      "id": "node/10807425688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807442736",
+        "amenity": "police",
+        "name": "Zawlnuam Police Out post",
+        "phone": "9862561949"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.3384619,
+          24.1417277
+        ]
+      },
+      "id": "node/10807442736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807443424",
+        "amenity": "police",
+        "name": "Tlabung Police Station",
+        "phone": "9612213611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.4672258,
+          22.907298
+        ]
+      },
+      "id": "node/10807443424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807450362",
+        "amenity": "police",
+        "name": "Vairengte Police Station",
+        "phone": "03837-261077"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.75921,
+          24.4917701
+        ]
+      },
+      "id": "node/10807450362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807450596",
+        "amenity": "police",
+        "name": "West Phaileng Police Station",
+        "phone": "8413835827"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.4841372,
+          23.709755
+        ]
+      },
+      "id": "node/10807450596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807450597",
+        "amenity": "police",
+        "name": "Bunghmun Police Station",
+        "phone": "9383075704"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.4877508,
+          23.1834046
+        ]
+      },
+      "id": "node/10807450597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807452226",
+        "addr:alternatenumber": "9612628800",
+        "amenity": "police",
+        "name": "Kawrthah Police Station",
+        "phone": "8787683770"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.3766412,
+          24.0080677
+        ]
+      },
+      "id": "node/10807452226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807455195",
+        "amenity": "police",
+        "name": "Saiphai Police Station",
+        "phone": "7630078852"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7972247,
+          24.4128141
+        ]
+      },
+      "id": "node/10807455195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807458265",
+        "amenity": "police",
+        "name": "Kanhmun Police Station",
+        "phone": "9862457999"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.2985903,
+          24.2349439
+        ]
+      },
+      "id": "node/10807458265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807464178",
+        "addr:alternatenumber": "0389-2565222",
+        "amenity": "police",
+        "name": "Mamit Police Station",
+        "phone": "0389-2565100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.4927452,
+          23.9173577
+        ]
+      },
+      "id": "node/10807464178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807472424",
+        "amenity": "police",
+        "name": "Hrangchalkawn Police Out Post",
+        "phone": "9862477666"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7944729,
+          22.8501085
+        ]
+      },
+      "id": "node/10807472424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807481870",
+        "amenity": "police",
+        "name": "Lunglei Police Station",
+        "phone": "0372-2324390"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7438186,
+          22.8909924
+        ]
+      },
+      "id": "node/10807481870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807484204",
+        "amenity": "police",
+        "name": "Marpara Police Station",
+        "phone": "8787486771"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.4136083,
+          23.2665626
+        ]
+      },
+      "id": "node/10807484204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10807486143",
+        "amenity": "police",
+        "name": "Lawngtlai Police Station",
+        "phone": "03835-232245"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.8959003,
+          22.5324782
+        ]
+      },
+      "id": "node/10807486143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817698091",
+        "amenity": "police",
+        "name": "Siahatla Police Outpost",
+        "phone": "03835-223015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9943846,
+          22.4926898
+        ]
+      },
+      "id": "node/10817698091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817709178",
+        "amenity": "police",
+        "name": "Borapansury Police Station",
+        "phone": "9436714980"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.5201717,
+          22.7098726
+        ]
+      },
+      "id": "node/10817709178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817716578",
+        "amenity": "police",
+        "name": "Vanlaiphai Police Outpost",
+        "phone": "8794211853"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9969369,
+          22.8039525
+        ]
+      },
+      "id": "node/10817716578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817716859",
+        "amenity": "police",
+        "name": "Bungtlang Police Out Post",
+        "phone": "9366577072"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7591008,
+          22.360874
+        ]
+      },
+      "id": "node/10817716859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817717291",
+        "amenity": "police",
+        "name": "Chawngte Police Station",
+        "phone": "9862898367"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.6371576,
+          22.6171286
+        ]
+      },
+      "id": "node/10817717291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817719436",
+        "amenity": "police",
+        "name": "North Vanlaiphai Police Station",
+        "phone": "03838-224271"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.0672361,
+          23.1247587
+        ]
+      },
+      "id": "node/10817719436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817727723",
+        "amenity": "police",
+        "name": "Saiha Police Station",
+        "phone": "03835-225052"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9813358,
+          22.488034
+        ]
+      },
+      "id": "node/10817727723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817727753",
+        "amenity": "police",
+        "name": "Khawzawl Police Station",
+        "phone": "9810381255"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.1954274,
+          23.5038274
+        ]
+      },
+      "id": "node/10817727753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817731219",
+        "amenity": "police",
+        "name": "Bualpui Police Outpost",
+        "phone": "9862913483"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.0340165,
+          22.5471961
+        ]
+      },
+      "id": "node/10817731219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817732012",
+        "amenity": "police",
+        "name": "Sangau Police Station",
+        "phone": "9366079180"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.04735,
+          22.7361426
+        ]
+      },
+      "id": "node/10817732012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817732043",
+        "amenity": "police",
+        "name": "Vasei Police Station",
+        "phone": "9485495295"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.6372834,
+          22.3600419
+        ]
+      },
+      "id": "node/10817732043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817732653",
+        "amenity": "police",
+        "name": "Phura Police Station",
+        "phone": "9436149706"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9078409,
+          22.2352596
+        ]
+      },
+      "id": "node/10817732653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817733968",
+        "amenity": "police",
+        "name": "Hnahthial Police Station",
+        "phone": "9862982629"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9268911,
+          22.9705748
+        ]
+      },
+      "id": "node/10817733968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817742825",
+        "amenity": "police",
+        "name": "Serchhip Police Station",
+        "phone": "03838-222528"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.8549238,
+          23.3244931
+        ]
+      },
+      "id": "node/10817742825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817743914",
+        "amenity": "police",
+        "name": "Zokhawthar Police Station",
+        "phone": "9862066878"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.3829533,
+          23.3650346
+        ]
+      },
+      "id": "node/10817743914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817745287",
+        "amenity": "police",
+        "name": "Thingsai Police Station",
+        "phone": "9383075704"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.095537,
+          22.9295633
+        ]
+      },
+      "id": "node/10817745287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817745506",
+        "amenity": "police",
+        "name": "Lobo Police outpost",
+        "phone": "9862561945"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.0994663,
+          22.4692726
+        ]
+      },
+      "id": "node/10817745506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817746511",
+        "amenity": "police",
+        "name": "Tipa Police Station",
+        "phone": "03835-280011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.0224094,
+          22.3197429
+        ]
+      },
+      "id": "node/10817746511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817752679",
+        "amenity": "police",
+        "name": "Dungtlang Police Station",
+        "phone": "8729872660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.2495553,
+          23.186888
+        ]
+      },
+      "id": "node/10817752679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817754470",
+        "amenity": "police",
+        "name": "Keifang Police Station",
+        "phone": "0389-2562405"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9628315,
+          23.6775038
+        ]
+      },
+      "id": "node/10817754470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817754929",
+        "amenity": "police",
+        "name": "Thenzawl Police Station",
+        "phone": "03838- 261352"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7759049,
+          23.278987
+        ]
+      },
+      "id": "node/10817754929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817755424",
+        "amenity": "police",
+        "name": "Champhai Police Station",
+        "phone": "8974924728"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.3154588,
+          23.4774317
+        ]
+      },
+      "id": "node/10817755424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11378909561",
+        "addr:city": "Aizawl",
+        "addr:postcode": "796001",
+        "name": "Aizawl South Treasury",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7194578,
+          23.724632
+        ]
+      },
+      "id": "node/11378909561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11378909562",
+        "addr:city": "Aizawl",
+        "addr:postcode": "796001",
+        "name": "Aizawl North Treasury",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7194747,
+          23.7245307
+        ]
+      },
+      "id": "node/11378909562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11378909563",
+        "name": "Directorate of Election",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7195548,
+          23.7245446
+        ]
+      },
+      "id": "node/11378909563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11378959226",
+        "addr:city": "Aizawl",
+        "addr:postcode": "796001",
+        "name": "ICT Dept",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.7195342,
+          23.7246487
+        ]
+      },
+      "id": "node/11378959226"
+    }
+  ]
+}
