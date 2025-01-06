@@ -4,6 +4,7 @@ import { GeoJsonLayer } from "@deck.gl/layers";
 import Map from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
 import "./App.css";
+import ScaleBar from './ScaleBar';
 
 const INITIAL_VIEW_STATE = {
   longitude: 92.9376,
@@ -22,7 +23,7 @@ const App = () => {
   const [buildingData, setBuildingData] = useState(null);
   const [showWatershed, setShowWatershed] = useState(false);
   const buildingFetchController = useRef(null);
-  const [showBuildings, setShowBuildings] = useState(true);
+  const [showBuildings, setShowBuildings] = useState(false);
   const [viewport, setViewport] = useState(INITIAL_VIEW_STATE);
   
 
@@ -269,6 +270,7 @@ const App = () => {
           </button>
         </div>
       </div>
+      <ScaleBar className="scale-bar" viewport={viewport} />
     </div>
   );
 };
