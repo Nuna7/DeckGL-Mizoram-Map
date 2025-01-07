@@ -1,0 +1,980 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-01-07T10:58:14Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6991500505",
+        "addr:district": "Sonipat",
+        "addr:full": "Bahalgarh, Road , Bahalgarh, Near -Nh-1",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Rama Hospital, Sonipat",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0876889,
+          28.9634997
+        ]
+      },
+      "id": "node/6991500505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6991524158",
+        "addr:district": "Sonipat",
+        "addr:full": "Near Mission Chowk, Tika Ram Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Kalawati Hospital, Sonipat",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0347635,
+          28.9921155
+        ]
+      },
+      "id": "node/6991524158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6991569738",
+        "addr:district": "Sonipat",
+        "addr:full": "Opp. Atlas Mandir, Atlas Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Aarogyadham Charitable Eye Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0231456,
+          28.9777441
+        ]
+      },
+      "id": "node/6991569738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6993923706",
+        "addr:district": "Sonipat",
+        "addr:full": "Near Kalupur Chungi",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Navjeevan Hospital, Sonipat",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0126434,
+          28.9777681
+        ]
+      },
+      "id": "node/6993923706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6993994145",
+        "addr:district": "Sonipat",
+        "addr:full": "145-46, T.P. Scheme No. 15, Delhi Road, Near Civil Hospital",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Vardhman General Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0268074,
+          28.9946005
+        ]
+      },
+      "id": "node/6993994145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6994051370",
+        "addr:district": "Sonipat",
+        "addr:full": "OppositeD.C. Jain High School,Near Sec - 23,Malhana Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Sarita Jain Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0049938,
+          28.9946272
+        ]
+      },
+      "id": "node/6994051370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6994232591",
+        "addr:district": "Sonipat",
+        "addr:full": "Near Sonipat Cooperative Bank, Dev Nagar",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Janta Charitable Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0152077,
+          28.9883968
+        ]
+      },
+      "id": "node/6994232591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6994232596",
+        "addr:district": "Sonipat",
+        "addr:full": "Delhi Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Memorial Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0247543,
+          28.9945198
+        ]
+      },
+      "id": "node/6994232596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6994242175",
+        "addr:district": "Sonipat",
+        "addr:full": "Opposite Bus Stand",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Haryana Multispeciality Hospital - Sonipat",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0915492,
+          28.9287017
+        ]
+      },
+      "id": "node/6994242175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6994249918",
+        "addr:district": "Sonipat",
+        "addr:full": "Opposite Bus Stand",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Haryana Multispeciality Hospital - Sonipat",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0326418,
+          28.9913263
+        ]
+      },
+      "id": "node/6994249918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6994286418",
+        "addr:district": "Sonipat",
+        "addr:full": "1007 Sector 14",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Raj Child Health Care and Immunization Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0304943,
+          28.998655
+        ]
+      },
+      "id": "node/6994286418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6994300663",
+        "addr:district": "Sonipat",
+        "addr:full": "Old D.C. Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Dahiya Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0291449,
+          28.9785312
+        ]
+      },
+      "id": "node/6994300663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6994327713",
+        "addr:district": "Sonipat",
+        "addr:full": "Kath Mandi, Rohtak Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Chauhan Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0149903,
+          28.9842252
+        ]
+      },
+      "id": "node/6994327713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6994526039",
+        "addr:district": "Sonipat",
+        "addr:full": "Atlas Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Arya Eye Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0212631,
+          28.9843919
+        ]
+      },
+      "id": "node/6994526039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6997058096",
+        "addr:district": "Sonipat",
+        "addr:full": "K.Plaza, Atlas Road, Near State Bank of India",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "healthcare:speciality": "Eye Care",
+        "name": "Eye-Q Super Speciality Eye Hospitals, Sonipat",
+        "operator:type": "private",
+        "source": "OpenGovernmentData",
+        "website": "https://eyeqindia.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0214075,
+          28.9824714
+        ]
+      },
+      "id": "node/6997058096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6997132004",
+        "addr:district": "Sonipat",
+        "addr:full": "Ambala Road, Near Bus Stand",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Mukhi Hospital and Nursing Home Pvt. Ltd.",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0214772,
+          28.9998303
+        ]
+      },
+      "id": "node/6997132004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6997306781",
+        "addr:district": "Sonipat",
+        "addr:full": "112-113, T.P Scheme, Delhi Road,Near Hero Honda Showroom",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Saxena Multispeciality Hospital Pvt Ltd",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0270468,
+          28.9943043
+        ]
+      },
+      "id": "node/6997306781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6997312343",
+        "addr:district": "Sonipat",
+        "addr:full": "Rathandhana Road , Rathandhana Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Sehrawat Hospital, Sonipat",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0303714,
+          28.977219
+        ]
+      },
+      "id": "node/6997312343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6997324385",
+        "addr:district": "Sonipat",
+        "addr:full": "D/8, Khanna Colony, Bawa Tarana Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Sharma Eye Hospital, Sonipat",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.025868,
+          28.9964087
+        ]
+      },
+      "id": "node/6997324385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6997325092",
+        "addr:district": "Sonipat",
+        "addr:full": "209-L, Model Town, Atlas Road, Near Bulbul Restaurant",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "S.M. Hospital Dental and Chest Care Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0208375,
+          28.9872261
+        ]
+      },
+      "id": "node/6997325092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6997688588",
+        "addr:district": "Sonipat",
+        "addr:full": "Industrial Area",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "J.K Hindu Charitable Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0209086,
+          28.979251
+        ]
+      },
+      "id": "node/6997688588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6997688593",
+        "addr:district": "Sonipat",
+        "addr:full": "Ind. Area, Rohtak Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Rawal Multi Speciality Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0068927,
+          28.9760235
+        ]
+      },
+      "id": "node/6997688593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6997714616",
+        "addr:district": "Sonipat",
+        "addr:full": "Gohana Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "City Hospital, Sonipat",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0105821,
+          28.9953108
+        ]
+      },
+      "id": "node/6997714616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6998114426",
+        "addr:district": "Sonipat",
+        "addr:full": "Sikka Colony, Delhi Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Gujaria Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0319671,
+          28.9919757
+        ]
+      },
+      "id": "node/6998114426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7001287193",
+        "addr:district": "Sonipat",
+        "addr:full": "Railway Road, Near Vishwakarma Mandir Ganaur",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Sharma Hospital, Sonipat",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0297304,
+          28.999852
+        ]
+      },
+      "id": "node/7001287193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7001382534",
+        "addr:district": "Sonipat",
+        "addr:full": "Mahavir Colony, Purkhas Adda",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Malik Hospital, Sonipat",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0143204,
+          28.9988385
+        ]
+      },
+      "id": "node/7001382534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7002954548",
+        "addr:district": "Sonipat",
+        "addr:full": "Sikka Colony, Delhi Road, Opposite Huda Commercial Centre",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Aneja Hospital and Bhogal Ortho Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0317233,
+          28.9923102
+        ]
+      },
+      "id": "node/7002954548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7003062470",
+        "addr:district": "Sonipat",
+        "addr:full": "Green Crescent, Opposite Sector - 14",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Bharat Hospital, Sonepat",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0342633,
+          28.99197
+        ]
+      },
+      "id": "node/7003062470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7007709885",
+        "addr:district": "Sonipat",
+        "addr:full": "Bawa Tarana Road, Khanna Colony",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Girdhar Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0258666,
+          28.9960114
+        ]
+      },
+      "id": "node/7007709885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7008806739",
+        "addr:district": "Sonipat",
+        "addr:full": "1138, Sector -14 Main Road Between Sector-14-15",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Satya-Om Eye and Maternity Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0357144,
+          28.9967418
+        ]
+      },
+      "id": "node/7008806739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7008878540",
+        "addr:district": "Sonipat",
+        "addr:full": "Murthal Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Darya Ram Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0264983,
+          29.0026981
+        ]
+      },
+      "id": "node/7008878540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7010503283",
+        "addr:district": "Sonipat",
+        "addr:full": "11-E, Khanna Colony, Opposite Petrol Pump, Bawa Tarana Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Maniktalia E.N.T. Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0330322,
+          29.0064538
+        ]
+      },
+      "id": "node/7010503283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7010509451",
+        "addr:district": "Sonipat",
+        "addr:full": "Gohana Road, Opp Malviya School, Near Nandi Chowk",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Krishnawati Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0095508,
+          29.0006056
+        ]
+      },
+      "id": "node/7010509451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7010518503",
+        "addr:district": "Sonipat",
+        "addr:full": "Dev Nagar",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Shiva Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0130943,
+          28.9909651
+        ]
+      },
+      "id": "node/7010518503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7010747049",
+        "addr:district": "Sonipat",
+        "addr:full": "Industrial Area",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Lala Jai Kishan Hindu Charitable Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0193224,
+          28.9813746
+        ]
+      },
+      "id": "node/7010747049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7010747054",
+        "addr:district": "Sonipat",
+        "addr:full": "Sarang Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Handa Hospital and Heart Care Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0161474,
+          28.993904
+        ]
+      },
+      "id": "node/7010747054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7168803714",
+        "addr:district": "Sonipat",
+        "addr:full": "Karewri Road",
+        "addr:postcode": "131024",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "description": "Civil Hospital",
+        "name": "Civil Hospital Juan",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9003016,
+          29.0616888
+        ]
+      },
+      "id": "node/7168803714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7168803864",
+        "addr:district": "Sonipat",
+        "addr:full": "Government hospita ,Mohana Sonepat",
+        "addr:postcode": "131024",
+        "addr:state": "Haryana",
+        "addr:subdistrict": "Sonipat",
+        "amenity": "hospital",
+        "description": "Government Hospital",
+        "name": "Government hospital, Mohana",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8632823,
+          29.0388721
+        ]
+      },
+      "id": "node/7168803864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7622516622",
+        "addr:district": "Sonipat",
+        "addr:full": "T. P. Scheme No 15, Vivekanand Chowk, Delhi Road",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Tulip Women Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0270378,
+          28.9943382
+        ]
+      },
+      "id": "node/7622516622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7622516641",
+        "addr:district": "Sonipat",
+        "addr:full": "Malviya Nagar",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Raj Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.006111,
+          28.994199
+        ]
+      },
+      "id": "node/7622516641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7622516651",
+        "addr:district": "Sonipat",
+        "addr:full": "Sector 14, Sonipat",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Dr. Aishish Rawal Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0325819,
+          28.9994757
+        ]
+      },
+      "id": "node/7622516651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7622516657",
+        "addr:district": "Sonipat",
+        "addr:full": "Kakroi Road, Prem Nagar, West Ram Nagar",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Dayanand Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.006485,
+          28.98773
+        ]
+      },
+      "id": "node/7622516657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7622516669",
+        "addr:district": "Sonipat",
+        "addr:full": "Ashok Vihar",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Preet Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.007667,
+          28.9953104
+        ]
+      },
+      "id": "node/7622516669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7622516682",
+        "addr:district": "Sonipat",
+        "addr:full": "Mehlana Road, Malviya Nagar",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Sanjeevani Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0077726,
+          28.9953384
+        ]
+      },
+      "id": "node/7622516682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7622516694",
+        "addr:district": "Sonipat",
+        "addr:full": "Delhi Road, Khanna Colony",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Om Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0286057,
+          28.9944955
+        ]
+      },
+      "id": "node/7622516694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7622516715",
+        "addr:district": "Sonipat",
+        "addr:full": "Malik Colony, Ashok Vihar",
+        "addr:postcode": "131001",
+        "addr:state": "Haryana",
+        "amenity": "hospital",
+        "name": "Jai Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0057415,
+          29.0015103
+        ]
+      },
+      "id": "node/7622516715"
+    }
+  ]
+}

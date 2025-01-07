@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-01-07T10:58:14Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/496712282",
+        "amenity": "police",
+        "name": "Murthal Police Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0732024,
+          29.026639
+        ]
+      },
+      "id": "node/496712282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6562190369",
+        "amenity": "police",
+        "name": "Police Station Rai",
+        "name:hi": "थाना राई"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.097789,
+          28.9398554
+        ]
+      },
+      "id": "node/6562190369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8308352247",
+        "amenity": "police"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0629942,
+          28.9201292
+        ]
+      },
+      "id": "node/8308352247"
+    }
+  ]
+}

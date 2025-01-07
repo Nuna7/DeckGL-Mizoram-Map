@@ -6,56 +6,79 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import "./App.css";
 import ScaleBar from './ScaleBar';
 
-const INITIAL_VIEW_STATE = {
-  longitude: 92.9376,
-  latitude: 23.1645,
-  zoom: 7,
-  pitch: 0,
-  bearing: 0,
+const VIEW_STATES = {
+  mizoram: {
+    longitude: 92.9376,
+    latitude: 23.1645,
+    zoom: 7,
+    pitch: 0,
+    bearing: 0,
+  },
+  sonipat: {
+    longitude: 77.0151,
+    latitude: 28.9931,
+    zoom: 10,
+    pitch: 0,
+    bearing: 0,
+  }
 };
 
 const App = () => {
-  const [mizoramBoundary, setMizoramBoundary] = useState(null);
+  const [boundary, setBoundary] = useState(null);
   const [hospitals, setHospitals] = useState(null);
-  const [government, setGovernment] = useState(null);
+  const [governmentOrPolice, setGovernmentOrPolice] = useState(null);
   const [hoverInfo, setHoverInfo] = useState(null);
   const [mapStyle, setMapStyle] = useState("osm");
   const [buildingData, setBuildingData] = useState(null);
   const [showWatershed, setShowWatershed] = useState(false);
   const buildingFetchController = useRef(null);
   const [showBuildings, setShowBuildings] = useState(false);
-  const [viewport, setViewport] = useState(INITIAL_VIEW_STATE);
-  
+  const [viewport, setViewport] = useState(VIEW_STATES.mizoram);
+  const [selectedDataset, setSelectedDataset] = useState("mizoram");
+
+  // Update viewport when dataset changes
+  useEffect(() => {
+    setViewport(VIEW_STATES[selectedDataset]);
+    setBuildingData(null); // Clear building data when switching datasets
+  }, [selectedDataset]);
 
   useEffect(() => {
     const fetchStaticData = async () => {
       try {
-        const [boundaryRes, hospitalRes, governmentRes] = await Promise.all([
-          fetch("/export.geojson"),
-          fetch("/hospital.geojson"),
-          fetch("/government.geojson"),
+        const isMizoram = selectedDataset === "mizoram";
+
+        const [boundaryRes, hospitalRes, governmentOrPoliceRes] = await Promise.all([
+          fetch(isMizoram ? "/export.geojson" : "/sonipat_boundary.geojson"),
+          fetch(isMizoram ? "/hospital.geojson" : "/sonipat_hospital.geojson"),
+          fetch(isMizoram ? "/police.geojson" : "/sonipat_police.geojson"),
         ]);
 
-        const [boundaryData, hospitalData, governmentData] = await Promise.all([
+        const [boundaryData, hospitalData, governmentOrPoliceData] = await Promise.all([
           boundaryRes.json(),
           hospitalRes.json(),
-          governmentRes.json(),
+          governmentOrPoliceRes.json(),
         ]);
 
-        setMizoramBoundary(boundaryData);
+        console.log(boundaryData);
+        console.log(hospitalData);
+        console.log(governmentOrPoliceData);
+
+
+        setBoundary(boundaryData);
         setHospitals(hospitalData);
-        setGovernment(governmentData);
+        setGovernmentOrPolice(governmentOrPoliceData);
       } catch (error) {
         console.error("Error loading static data:", error);
       }
     };
 
     fetchStaticData();
-  }, []);
+  }, [selectedDataset]);
+
 
   useEffect(() => {
     const fetchBuildingData = async () => {
-      if (!mizoramBoundary || viewport.zoom < 7) return;
+      if (!boundary || viewport.zoom < 7) return;
   
       if (buildingFetchController.current) {
         buildingFetchController.current.abort();
@@ -64,10 +87,10 @@ const App = () => {
       buildingFetchController.current = new AbortController();
   
       try {
-        const buildingRes = await fetch("/buildings.geojson");
+        const buildingRes = await fetch(
+          selectedDataset === "mizoram" ? "/buildings.geojson" : "/sonipat_building.geojson"
+        );
         const buildingData = await buildingRes.json();
-
-        console.log("Once")
 
         setBuildingData(buildingData);
 
@@ -83,9 +106,9 @@ const App = () => {
     return () => {
       if (buildingFetchController.current) {
         buildingFetchController.current.abort();
-        }
-      };
-    }, [mizoramBoundary]);
+      }
+    };
+  }, [boundary, selectedDataset]);
 
   const setHover = (info) => {
     if (info?.object) {
@@ -101,31 +124,13 @@ const App = () => {
 
   const layers = [
     new GeoJsonLayer({
-      id: "mizoram-boundary",
-      data: mizoramBoundary,
+      id: "boundary",
+      data: boundary,
       filled: true,
       stroked: true,
       lineWidthMinPixels: 2,
-      getFillColor: [200, 200, 200, 100],
-      getLineColor: [0, 0, 0, 255],
-      pickable: true,
-      onHover: setHover,
-    }),
-    new GeoJsonLayer({
-      id: "hospitals",
-      data: hospitals,
-      pointRadiusUnits: "pixels",
-      getPointRadius: 5,
-      getFillColor: [255, 0, 0],
-      pickable: true,
-      onHover: setHover,
-    }),
-    new GeoJsonLayer({
-      id: "government",
-      data: government,
-      pointRadiusUnits: "pixels",
-      getPointRadius: 5,
-      getFillColor: [0, 255, 0],
+      getFillColor: [200, 200, 200, 100], // This determines the fill color (currently gray with transparency)
+      getLineColor: [0, 0, 0, 255], // Boundary stroke color (black)
       pickable: true,
       onHover: setHover,
     }),
@@ -145,6 +150,40 @@ const App = () => {
         }
       })
     ] : []),
+    new GeoJsonLayer({
+      id: "governmentOrPolice",
+      data: governmentOrPolice,
+      filled: true,
+      stroked: true,
+      pointRadiusUnits: "pixels",
+      getPointRadius: 5,
+      //getFillColor: [0, 255, 0],
+      lineWidthMinPixels: 1,
+      pickable: true,
+      onHover: setHover,
+      getLineColor: [0, 255, 0],
+      opacity: selectedDataset === "sonipat" ? 0.3 : 1,
+      parameters: {
+        depthTest: false
+      }
+    }),
+    new GeoJsonLayer({
+      id: "hospitals",
+      data: hospitals,
+      pointRadiusUnits: "pixels",
+      getPointRadius: 6, // Slightly larger to be more visible
+      getFillColor: [255, 0, 0],
+      pickable: true,
+      onHover: setHover,
+      // Always render on top
+      parameters: {
+        depthTest: false
+      },
+      // Add outline to make points more visible
+      stroked: true,
+      getLineColor: [200, 0, 0],
+      lineWidthMinPixels: 1
+    })
   ];
 
   const mapStyles = {
@@ -198,7 +237,7 @@ const App = () => {
   return (
     <div className="app-container">
       <DeckGL
-        initialViewState={INITIAL_VIEW_STATE}
+        initialViewState={VIEW_STATES[selectedDataset]}
         controller={true}
         layers={layers}
         onViewStateChange={({ viewState }) => {
@@ -238,14 +277,27 @@ const App = () => {
         </div>
         <div>
           <span style={{ backgroundColor: "green" }} className="legend-box"></span>{" "}
-          Government Facilities
+          Government/Police Facilities
         </div>
         <div>
           <span style={{ backgroundColor: "blue" }} className="legend-box"></span>{" "}
           Buildings
         </div>
       </div>
+
       <div className="map-controls">
+        <div className="dataset-toggle">
+          <label>
+            Dataset:
+            <select
+              value={selectedDataset}
+              onChange={(e) => setSelectedDataset(e.target.value)}
+            >
+              <option value="mizoram">Mizoram</option>
+              <option value="sonipat">Sonipat</option>
+            </select>
+          </label>
+        </div>
         <div className="map-toggle">
           <button onClick={() => {
             setMapStyle(mapStyle === "osm" ? "terrain" : "osm");
